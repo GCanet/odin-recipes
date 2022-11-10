@@ -1,20 +1,18 @@
 /* style.css */
 
-
-body {
+* {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     background-color: blue;
 }
 
-.tester {
-    
+#titulos {
     font-weight: 800;
     font-size: 36px;
     color: green
 }
 
-button {
-    background-color: white;
+.buttonone {
+    background-color: black;
     color: greenyellow;
 }
