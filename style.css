@@ -1,7 +1,7 @@
 /* style.css */
 
-* {
-    font-family: 'Courier New', Courier, monospace;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     background-color: blue;
 }
@@ -15,4 +15,8 @@
 .buttonone {
     background-color: black;
     color: greenyellow;
+}
+
+img {
+    margin-left: 200px;
 }
