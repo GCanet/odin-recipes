@@ -4,9 +4,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     background-color: blue;
+    color: white;
 }
 
-#titulos {
+.titulos {
     font-weight: 800;
     font-size: 36px;
     color: green;
@@ -14,25 +15,32 @@ body {
 }
 
 .buttonone {
-    background-color: black;
-    color: greenyellow;
+    display: flex;
+    padding: 6px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background-color: green;
+    color: white;
+}
+    
+a {
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
-button {
-    padding: 6px;
-    border-radius: 15px;
-    justify-content: center;
-    margin-left: 40%;
-}
-
 ol {
     text-align: left;
 }
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
