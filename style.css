@@ -9,7 +9,8 @@ body {
 #titulos {
     font-weight: 800;
     font-size: 36px;
-    color: green
+    color: green;
+    text-align: center;
 }
 
 .buttonone {
@@ -17,6 +18,21 @@ body {
     color: greenyellow;
 }
 
-img {
-    margin-left: 200px;
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 6px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+ol {
+    text-align: left;
 }
